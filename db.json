@@ -1,0 +1,22 @@
+{
+  "project": [
+    {
+      "id": "4d76",
+      "title": "developpment",
+      "description": "Le développement web consiste à créer des sites et des applications accessibles via internet. Il inclut le travail sur l’apparence (front-end) et le fonctionnement interne (back-end). C’est un domaine en constante évolution qui combine design, programmation et logique pour offrir des expériences utilisateur efficaces et interactives.",
+      "image": "./images/image2.jpg"
+    },
+    {
+      "id": "e176",
+      "title": "econommie",
+      "description": "L’économie est la science qui étudie la production, la distribution et la consommation des ressources. Elle cherche à comprendre comment les individus,",
+      "image": "./images/eco2.jpg"
+    },
+    {
+      "id": "36f8",
+      "title": "ecommerce",
+      "description": "L’e-commerce désigne l’achat et la vente de produits ou services en ligne. Il permet aux entreprises de toucher un large public via des plateformes numériques.",
+      "image": "./images/eco1.jpg"
+    }
+  ]
+}

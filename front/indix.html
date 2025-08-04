@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Photographe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Portfolio Photographe</h1>
+    
+    <section>
+        <form id="project-form">
+             <h2>Ajouter un projet</h2>
+            <div>
+                <label for="title"></label>
+                <input type="text" id="title" name="title" placeholder="Titre du projet" required>
+            </div>
+            
+            <div>
+                <label for="description"></label>
+                <textarea id="description" name="description" placeholder="Description" required></textarea>
+            </div>
+            <div class="divgroup">
+            <div>
+                <label for="image"></label>
+                <input type="text" id="image" name="image" placeholder="URL de l'imagege">
+            </div>
+            
+            <button type="submit">Ajouter</button>
+        </div>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Mes projets</h2>
+        <div class="projects-container">
+
+
+        </div>
+    </section>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
